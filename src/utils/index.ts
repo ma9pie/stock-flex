@@ -1,1 +1,1 @@
-export * from './test';
+export * from './ga4';
