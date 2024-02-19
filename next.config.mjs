@@ -10,7 +10,7 @@ export default withSentryConfig(
   {
     silent: true,
     org: 'ma9pie',
-    project: 'stock-flex',
+    project: 'stock-labs',
     authToken: process.env.NEXT_PUBLIC_SENTRY_AUTH_TOKEN,
   },
   {
