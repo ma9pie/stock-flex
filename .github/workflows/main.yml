@@ -1,4 +1,4 @@
-name: Fluid Main Deploy
+name: Main Git Action
 
 on:
   push:
