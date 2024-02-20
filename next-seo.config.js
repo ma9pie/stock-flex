@@ -1,0 +1,25 @@
+import { DESCRIPTION, OG_IMAGE, TITLE, URL } from '@/constants';
+
+const seoConfig = {
+  canonical: URL,
+  openGraph: {
+    type: 'website',
+    url: URL,
+    title: TITLE,
+    description: DESCRIPTION,
+    siteName: TITLE,
+    images: [
+      {
+        url: OG_IMAGE,
+        alt: 'og image',
+      },
+    ],
+  },
+  twitter: {
+    // site: '@username',
+    // handle: '@username',
+    cardType: 'summary_large_image',
+  },
+};
+
+export default seoConfig;
